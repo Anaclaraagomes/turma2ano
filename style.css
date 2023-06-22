@@ -1,10 +1,4 @@
-<header>
-        <img src="" alt="">
-        <ul>
-            <li>Escola</li>
-            <li>Estudante</li>
-        </ul>
-    </header>
+
     .cabecalho-imagem{
         width: 20%;
     }
@@ -31,9 +25,19 @@
     .escola{
         background-image: linear-gradient(#424E61,#16CFF8);
         color: white;
-    }
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 24px 0;
     }
+    .estudante-imagem{
+        width: 120px;
+    }
+    body {
+        font-family: 'Poppins', sans-serif;
+    }
+    .estudante-todos{
+        display: grid;
+            grid-template-columns: 20% 20% 20% 20% 20%;
+        }
+    
